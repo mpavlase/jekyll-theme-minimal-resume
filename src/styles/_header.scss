@@ -2,16 +2,20 @@
   background: $main;
   display: flex;
   vertical-align: bottom;
-  min-height: 100vh;
+  /*
+  min-height: 10vh;
+   */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   .particles-js-canvas-el {
-    height: 100vh !important;
+    height: 70vh !important;
   }
+  /*
+   */
 }
 
-.header {
+.header, .no-header-slim {
   font-family: 'Montserrat', sans-serif;
   z-index: 1;
   text-align: center;
@@ -42,6 +46,20 @@
       font-size: 34px;
     }
   }
+}
+
+.header-slim-continer {
+  display: flex;
+  vertical-align: bottom;
+  min-height: 100vh;
+  height: 500px;
+}
+
+.header-slim {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('/assets/IMG_7446-orez.jpg');
 }
 
 .header-links {
