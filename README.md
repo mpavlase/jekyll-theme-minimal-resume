@@ -1,3 +1,6 @@
+# deployment notes
+- create access token to allow github actions do git push to gh-pages: https://jekyllrb.com/docs/continuous-integration/github-actions/#setting-up-the-action
+
 # Jekyll Resume Theme
 
 Live demo at https://jekyll-theme-minimal-resume.netlify.com/
